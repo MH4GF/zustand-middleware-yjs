@@ -52,7 +52,7 @@
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "prepare": "husky install"
   },
-  "dependencies": {
+  "peerDependencies": {
     "yjs": "^13.5.11",
     "zustand": "^4.3.7"
   },
